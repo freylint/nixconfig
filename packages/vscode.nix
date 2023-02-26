@@ -57,6 +57,13 @@
           version = "0.4.1416";
           sha256 = "c6hRhXczpZwZV/49y373nZZh/5lonW5SdhRwxzFxPcU=";
         }
+        # Java tooling
+        {
+          name = "java";
+          publisher = "redhat";
+          version = "1.15.0";
+          sha256 = "isYlOIx/P+6tkCAbjePBe2pIv5ORL9mkF2zxYXyArcM=";
+        }
       ];
     })
   ];
