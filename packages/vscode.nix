@@ -12,6 +12,7 @@
         ms-python.python
         ms-azuretools.vscode-docker
         ms-vscode-remote.remote-ssh
+        vscjava.vscode-java-debug
       ] ++ pkgs.vscode-utils.extensionsFromVscodeMarketplace [
         {
           name = "vim";
