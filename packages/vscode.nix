@@ -31,6 +31,25 @@
           version = "0.16.4";
           sha256 = "8fe3f6a29ae91f4af3a88d152add096d91b5f440c4edeefe9006f73061824439";
         }
+        # Rust tooling
+        {
+          name = "rust-analyzer";
+          publisher = "rust-lang";
+          version = "0.4.1416";
+          sha256 = "c6hRhXczpZwZV/49y373nZZh/5lonW5SdhRwxzFxPcU=";
+        }
+        {
+          name = "even-better-toml";
+          publisher = "tamasfe";
+          version = "0.19.0";
+          sha256 = "32a4906ab35385b11fd701c34dfd72038e89321589378e9bd3c73bb55ebed675";
+        }
+        {
+          name = "vscode-lldb";
+          publisher = "vadimcn";
+          version = "1.8.1";
+          sha256 = "Uu7ESouPnScXs9x3iCb8MupSwXiZe5sSZqczpKA2aSQ=";
+        }
       ];
     })
   ];
