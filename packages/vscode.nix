@@ -44,6 +44,12 @@
           version = "0.19.0";
           sha256 = "32a4906ab35385b11fd701c34dfd72038e89321589378e9bd3c73bb55ebed675";
         }
+        {
+          name = "vscode-lldb";
+          publisher = "vadimcn";
+          version = "1.8.1";
+          sha256 = "Uu7ESouPnScXs9x3iCb8MupSwXiZe5sSZqczpKA2aSQ=";
+        }
       ];
     })
   ];
