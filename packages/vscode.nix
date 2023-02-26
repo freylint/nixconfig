@@ -65,6 +65,13 @@
           version = "1.15.0";
           sha256 = "isYlOIx/P+6tkCAbjePBe2pIv5ORL9mkF2zxYXyArcM=";
         }
+        # JS tooling
+        {
+          name = "js-debug";
+          publisher = "ms-vscode";
+          version = "1.76.0";
+          sha256 = "ZAUUYbTq7iqBHwj+REXIb+osh1sxxYOP9hPyOCEinFA=";
+        }
       ];
     })
   ];
