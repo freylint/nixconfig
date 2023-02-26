@@ -12,6 +12,7 @@
         ms-python.python
         ms-azuretools.vscode-docker
         ms-vscode-remote.remote-ssh
+        vscjava.vscode-java-debug
       ] ++ pkgs.vscode-utils.extensionsFromVscodeMarketplace [
         {
           name = "vim";
@@ -31,13 +32,7 @@
           version = "0.16.4";
           sha256 = "8fe3f6a29ae91f4af3a88d152add096d91b5f440c4edeefe9006f73061824439";
         }
-        # Rust tooling
-        {
-          name = "rust-analyzer";
-          publisher = "rust-lang";
-          version = "0.4.1416";
-          sha256 = "c6hRhXczpZwZV/49y373nZZh/5lonW5SdhRwxzFxPcU=";
-        }
+        # General tooling
         {
           name = "even-better-toml";
           publisher = "tamasfe";
@@ -49,6 +44,26 @@
           publisher = "vadimcn";
           version = "1.8.1";
           sha256 = "Uu7ESouPnScXs9x3iCb8MupSwXiZe5sSZqczpKA2aSQ=";
+        }
+        {
+          name = "vscodeintellicode";
+          publisher = "VisualStudioExptTeam";
+          version = "1.2.30";
+          sha256 = "f2Gn+W0QHN8jD5aCG+P93Y+JDr/vs2ldGL7uQwBK4lE=";
+        }
+        # Rust tooling
+        {
+          name = "rust-analyzer";
+          publisher = "rust-lang";
+          version = "0.4.1416";
+          sha256 = "c6hRhXczpZwZV/49y373nZZh/5lonW5SdhRwxzFxPcU=";
+        }
+        # Java tooling
+        {
+          name = "java";
+          publisher = "redhat";
+          version = "1.15.0";
+          sha256 = "isYlOIx/P+6tkCAbjePBe2pIv5ORL9mkF2zxYXyArcM=";
         }
       ];
     })
