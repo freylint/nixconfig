@@ -25,6 +25,12 @@
           version = "0.58.1";
           sha256 = "22eb65e4926aaf085e72aed960d1c18888b37179c3dedad472b1e6b2068341cb";
         }
+        {
+          name = "EditorConfig";
+          publisher = "EditorConfig";
+          version = "0.16.4";
+          sha256 = "8fe3f6a29ae91f4af3a88d152add096d91b5f440c4edeefe9006f73061824439";
+        }
       ];
     })
   ];
