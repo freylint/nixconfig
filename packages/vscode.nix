@@ -44,6 +44,12 @@
           version = "1.8.1";
           sha256 = "Uu7ESouPnScXs9x3iCb8MupSwXiZe5sSZqczpKA2aSQ=";
         }
+        {
+          name = "vscodeintellicode";
+          publisher = "VisualStudioExptTeam";
+          version = "1.2.30";
+          sha256 = "f2Gn+W0QHN8jD5aCG+P93Y+JDr/vs2ldGL7uQwBK4lE=";
+        }
         # Rust tooling
         {
           name = "rust-analyzer";
